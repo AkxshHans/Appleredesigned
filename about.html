@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About US | APPLE</title>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> <!-- Recommended -->
+
+    
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+
+}
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.514);
+
+}
+.navpart1 a {
+    position: absolute;
+    left: 6vw;
+    top: 2vw;
+}
+#navpart2 {
+    position: absolute;
+    top: 2.5vw;
+    left: 35vw;
+    display: flex;
+    gap: 5vw;
+
+}
+#navpart2 h5 {
+font-size: 1vw;
+    font-weight: 300;
+}
+#navpart2 a {
+    color: rgb(15, 15, 15);
+}
+#navpart2 a:hover {
+    color: rgb(65, 81, 230);
+}
+
+#navpart3 button {
+    padding: 0.7vw 1.2vw;
+    border-radius: 2vw;
+    position: absolute;
+    right: 6vw;
+    top: 2.2vw;
+    border: none;
+    color: white;
+    background-color: rgb(13, 148, 202);
+}
+#navpart3 button:hover{
+    background-color: rgb(51, 94, 221);
+}
+#content img {
+    height: 90vh;
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+}
+#content p {
+    position: absolute;
+    top: 45%;
+    left: 48%;
+}
+#main2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.514);
+}
+#main3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.514);
+}
+#main2 h5 {
+    color: black;
+    position: absolute;
+    left: 7%;
+    font-size: 2vw;
+    font-weight: 200;
+}
+#main2 span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+}
+#main2 img {
+    position: absolute;
+    top: 160%;
+    right: 12%;
+    height: 350px;
+}
+#main2 p {
+    position: absolute;
+    top: 190%;
+    left: 8%;
+    font-size: 1.8vw;
+}
+#main3 video {
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    top: 230%;
+    object-fit: cover;
+}
+#main3 h6 {
+    position: absolute;
+    top: 294%;
+    left: 42%;
+    opacity: 0.7;
+    font-size: 1.1vw;
+}
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="navpart1">
+            <a href="index.html"><img src="https://www.apple.com/ac/globalfooter/8/en_IN/assets/ac-footer/breadcrumbs/apple/icon_large.svg" alt=""></a>  
+          </div>
+
+          <div id="navpart2">
+            <a  style="text-decoration: none;"  href=""><h5>Store</h5></a>
+            <a  style="text-decoration: none;"  href="mac.html"><h5>Mac</h5></a>
+            <a  style="text-decoration: none;"  href=""><h5>ipad</h5></a>
+            <a  style="text-decoration: none;"  href=""><h5>iphone</h5></a>
+            <a  style="text-decoration: none;"  href=""><h5>Airpods</h5></a>
+        
+        
+        </div>
+    
+    
+        <div id="navpart3">
+    
+            <i id="menu" class="ri-menu-line"></i>
+            <button>Buy</button>
+        </div>
+
+
+
+
+    <div id="content">
+        <img src="blackmax.jpg" alt="">
+        <p>
+            Apple Inc. is a multinational technology company headquartered in Cupertino, California, known for its <br> innovation, design, and consumer electronics products. Founded by Steve Jobs, Steve Wozniak, and <br> Ronald Wayne in 1976, Apple has grown to become one of the most valuable and influential companies <br> in the world.</p>
+    </div>
+
+
+
+
+
+
+   
+
+    </div>
+
+    <div id="main2">
+        <h5>
+           <span> Products and Services: </span> Apple is renowned for its diverse portfolio of products, including the iPhone,  <br>iPad, Mac computers, Apple Watch, and Apple TV. The company also offers software services such as <br> iOS, macOS, watchOS, and tvOS, as well as digital services like Apple Music, iCloud, and the App Store. <br>
+<span> Design and Innovation: </span> Apple is synonymous with cutting-edge design and innovation. Its products <br> are known for their sleek aesthetics, intuitive user interfaces, and groundbreaking features. The <br> company has a strong focus on research and development, continually pushing the boundaries of <br> technology to deliver new and improved products to consumers.
+        </h5>
+        <img src="dfd.jpg" alt="">
+        <p>Use AR to see
+            AirPods Max.
+            Open this page using Safari on your iPhone or iPad.</p>
+    </div>
+    <div id="main3">
+        <video autoplay loop muted src="medium.mp4"></video>
+        <h6>
+         Los Altos, California, United States</h6>
+    </div>
+
+
+
+<!--  Gsap is needed for Basic Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<!-- Scroll Trigger is needed for Scroll Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- Three.js is needed for 3d Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+<!-- ControlKit is needed for Debug Panel -->
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+<script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+
+<script>
+ gsap.from("#main img , #main #navpart2 h5 , #navpart3 button , #main p",{
+    x:-20,
+    opacity : 0,
+    delay : 0.2,
+    duration : 1 ,
+    stagger : 0.2,
+ })
+
+ gsap.from("#main2 h5",{
+    x:49,
+    // scale : 0.1,
+    opacity : 0,
+    delay : 0.6,
+    duration : 1,
+    stagger : 0.2,
+    scrollTrigger : {
+        trigger : "#main2",
+        scroller : "body",
+        markers : false,
+        start : "top 50%"
+    }
+})
+gsap.from("#main2 img , #main2 p",{
+    x:49,
+    // scale : 0.1,
+    opacity : 0,
+    delay : 0.6,
+    duration : 1,
+    stagger : 0.2,
+    scrollTrigger : {
+        trigger : "#main2",
+        scroller : "body",
+        markers : false,
+        start : "top 50%"
+    }
+})
+
+gsap.from("#main3 video",{
+    x:-49,
+    // scale : 0.1,
+    opacity : 0,
+    delay : 0.6,
+    duration : 1,
+    stagger : 0.2,
+    scrollTrigger : {
+        trigger : "#main3",
+        scroller : "body",
+        markers : false,
+        start : "top 50%"
+    }
+})
+</script>
+</body>
+</html>
